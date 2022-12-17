@@ -78,7 +78,10 @@ The following items are required to begin and complete this project.
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 400px; height: 400px; border: solid 2px red;">
 ***
+
 ### Demonstration of the Implementation
+
+#### MySQL Server
 
 On mysql server Linux Server install MySQL Server software.
 
@@ -200,14 +203,70 @@ mysql -u example_user -p
   style="display: inline-block; margin: 0 auto; max-width: 400px; height: 500px; border: solid 2px red;">
 ***
 
+// Exit MySQL and restart the mySQL service using
+```
+sudo systemctl restart mysql
+```
+```
+sudo systemctl status mysql.service
+```
 
+<img
+  src="https://user-images.githubusercontent.com/80969889/208240805-a67fdf69-cf80-4b6a-9f3d-ec33933a985c.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 400px; height: 500px; border: solid 2px red;">
+***
 
+// Configure MySQL server to allow connections from remote hosts
+```
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+```
+Replace ‘127.0.0.1’ to ‘0.0.0.0’ like this:
 
+<img
+  src="https://user-images.githubusercontent.com/80969889/208240813-b4f9b597-b3bd-4315-ae5c-3de690407fbc.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 400px; height: 500px; border: solid 2px red;">
+***
 
+The MysqlX bind address can also be changed to 0.0.0.0. (optional)
 
+### MySQL Client 
 
+On mysql Client Linux Server install MySQL client software. ssh into MySQL client instance exactly like the MySQL Server instance above.
 
+// Install MySQL client software.
+```
+sudo apt update 
+```
+```
+sudp apt ugrade
+```
+// Then install the mysql-client package
+```
+sudo apt install mysql-client -y
+```
+// From mysql client instance connect remotely to mysql server Database using
+```
+sudo mysql -u example_user -h <mysqlserver private ip> -p
+```
+// Type this in and the database should be visible
+```
+Show databases;
+```
 
+<img
+  src="https://user-images.githubusercontent.com/80969889/208241104-93f82753-a217-4f05-b256-6e2263a7d647.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 400px; height: 500px; border: solid 2px red;">
+***
+
+Excellent work!👏👏👏 Experiment with this setup further by creating/deleting databases and tables and inserting/selecting entries to and from them. 
+
+**CONGRATULATIONS!**🎉🎉🎉
 
 
 
