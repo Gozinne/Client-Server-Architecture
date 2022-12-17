@@ -1,8 +1,7 @@
 # UNDERSTANDING CLIENT SERVER ARCHITECTURE
 </a>
 
-![Contributors](https://img.shields.io/github/contributors/Gozinne/Client-Server-Architecture
-?style=plastic)
+![Contributors](https://img.shields.io/github/contributors/Gozinne/Client-Server-Architecture?style=plastic)
 ![Forks](https://img.shields.io/github/forks/Gozinne/Client-Server-Architecture)
 ![Stars](https://img.shields.io/github/stars/Gozinne/Client-Server-Architecture)
 ![Licence](https://img.shields.io/github/license/Gozinne/Client-Server-Architecture)
@@ -28,9 +27,9 @@ Many clients can access the server's information at the same time, and a client 
 The client-server technique varies significantly from the conventional "mainframe" design, in which a centrally located mainframe computer conducted all tasks for its associated "dumb" terminals.
 
 ## Client-Server Architecture
-![image](https://user-images.githubusercontent.com/80969889/208232839-91130a76-b824-4988-9eba-c8a16f93c774.png)
+![image](https://user-images.githubusercontent.com/80969889/208233440-f60922ba-6a73-4343-bdc7-0b6a2311aa79.png)
 ***
-![Alt text](https://user-images.githubusercontent.com/80969889/208233152-73d11bf2-9544-4b69-a8c4-788f236eaba6.png)
+![Alt text](Images/P5S1.png)
 ***
 The client-server architecture denotes a system that hosts, delivers, and manages the majority of the resources and services requested by the client. 
 All requests and services are supplied across a network under this approach, which is also known as the networking computer model or client server network. 
