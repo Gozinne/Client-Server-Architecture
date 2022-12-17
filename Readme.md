@@ -55,11 +55,12 @@ Another popular client/server system design employs three tiers:
 * A client that communicates with the user. 
 * An application server that houses the program's business logic. 
 * A data storage resource manager.
+
 <img
   src="https://user-images.githubusercontent.com/80969889/208234121-01f4baa0-1b31-420c-9f8e-67ef6cbf8bc0.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 400px; height: 300px; border: solid 2px red;">
+  style="display: inline-block; margin: 0 auto; max-width: 500px; height: 800px; border: solid 2px red;">
 ***
 ### Characteristics of Client-Server Architecture
 * Centralized resource management: The server manages the resources that are shared among the clients, such as data storage and processing power.
@@ -78,6 +79,7 @@ Another popular client/server system design employs three tiers:
 * It allows different platforms to share resources.
 * Users don’t need to log into a terminal or another processor to access corporate information or desktop tools like PowerPoint presenters or spreadsheet utilities.
 * The setup reduces the incidence of data replication.
+
 Because nothing in the universe has yet to be perfectly created, things that have advantages typically have drawbacks, which include:
 * The network is made up of linked clients and servers, therefore, if the server has a worm, virus, or Trojan, the clients are likely to get it. 
 * Denial-of-Service (DoS) attacks are possible on the server. 
