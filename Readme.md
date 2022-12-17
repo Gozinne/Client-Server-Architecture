@@ -17,6 +17,7 @@ In this fast-paced environment, evolving is crucial for keeping a business curre
 To withstand the pressure of evolving in this fast-paced environment, client-server architecture is built. 
 It refers to a network-connected architecture in which two or more computers transmit and receive requests from one another.
 Let us break it down further.
+
 * Client: In the DevOps world this is refered to as a computer or device also known as `Host`. Client computers provide an interface to allow a computer user to request services of the server and to display the results the server returns
 * Server: A server, on the other hand, is a remote computer that waits for client requests before responding to them. A server should ideally provide a standardised transparent interface to clients so that they are unaware of the characteristics of the system (i.e., the hardware and software) that is providing the service.
 ![image](https://user-images.githubusercontent.com/80969889/208232594-ec2affe5-0041-4678-a488-151c08e8d902.png)
@@ -46,12 +47,14 @@ A client-server architecture, often known as a client-server model, is a network
 Multiple users' workstations, PCs, or other devices are often connected to a central server through an Internet connection or other network. 
 The client submits a data request, which the server acknowledges and accommodates by transmitting data packets.
 Simply put
+
 * The customer first transmits their request using a network-enabled device. 
 * The network server then accepts and processes the user's request. 
 * Finally, the server sends the response to the client.
 
 The typical client/server design has two levels: the client and the server. 
 Another popular client/server system design employs three tiers:
+
 * The User Interface is handled by the Presentation layer (or Client Tier). 
 * The application layer (or business tier) is in charge of the detailed processing. 
 * The database layer (or Data Tier) is where the information is stored.
@@ -65,6 +68,7 @@ The Presentation layer is managed by the Client system, the Application layer by
   style="display: inline-block; margin: 0 auto; max-width: 500px; height: 600px; border: solid 2px red;">
 ***
 ### Characteristics of Client-Server Architecture
+
 * Client and server computers require varying amounts of hardware and software. 
 * Client and server computers may be from different manufacturers. 
 * Horizontal scalability (expanding the number of client computers) and vertical scalability (migration to a more powerful server or to a multi-server solution).  
@@ -83,6 +87,7 @@ Instead, each device on the network acts as both a client and a server, making r
 P2P networks can be used for many purposes, such as file sharing and communication.
 
 There are several key differences between client-server and P2P architectures:
+
 * Centralization: In a client-server architecture, there is a central point of control and responsibility, while in a P2P network, responsibility is distributed among the devices on the network.
 * Scalability: Client-server architectures are generally more scalable than P2P networks, as they can handle a larger number of clients without experiencing performance issues.
 * Reliability: In a client-server architecture, the server is a single point of failure, meaning that if it goes down, the entire system may be affected. In a P2P network, there is no central point of failure, so the network may be more reliable.
@@ -96,6 +101,7 @@ Overall, the choice between a client-server and P2P architecture depends on the 
   style="display: inline-block; margin: 0 auto; max-width: 700px; height: 060px; border: solid 2px red;">
 ***
 ## Why use Client-Server Architecture
+
 * It’s a centralized system that keeps all the data and its controls in one place.
 * It brings a high level of scalability, organization, and efficiency.
 * It allows the IT staff to change the client and server capacities separately.
@@ -107,6 +113,7 @@ Overall, the choice between a client-server and P2P architecture depends on the 
 * The setup reduces the incidence of data replication.
 
 Because nothing in the universe has yet to be perfectly created, things that have advantages typically have drawbacks, which include:
+
 * The network is made up of linked clients and servers, therefore, if the server has a worm, virus, or Trojan, the clients are likely to get it. 
 * Denial-of-Service (DoS) attacks are possible on the server. 
 * During transmission, data packets might be faked or manipulated. 
@@ -114,6 +121,7 @@ Because nothing in the universe has yet to be perfectly created, things that hav
 * The configuration is vulnerable to phishing and Man in the Middle (MITM) attacks.
 
 ## Examples of Client-Server Architecture
+
 * Web browsers and web servers: When you type a URL into your web browser and hit enter, your browser sends a request to a web server for the corresponding website. The server then sends back the HTML, CSS, and JavaScript files that make up the website, which your browser then renders for you to view.
 * Email clients and email servers: When you send an email from your email client (such as Outlook or Gmail), your client sends a request to an email server to send the email on your behalf. The server then delivers the email to the recipient's email server, which passes it along to their email client.
 * FTP clients and FTP servers: FTP (File Transfer Protocol) is a protocol used to transfer files over the internet. FTP clients (such as FileZilla) allow you to connect to an FTP server and transfer files to and from the server.
