@@ -1,4 +1,4 @@
-# MPLEMENTATION OF A CLIENT SERVER ARCHITECTURE USING MYSQL DATABASE MANAGEMENT SYSTEM (DBMS). 
+# IMPLEMENTATION OF A CLIENT SERVER ARCHITECTURE USING MYSQL DATABASE MANAGEMENT SYSTEM (DBMS). 
 </a>
 
 ![Contributors](https://img.shields.io/github/contributors/Gozinne/Client-Server-Architecture?style=plastic)
@@ -79,6 +79,129 @@ The following items are required to begin and complete this project.
   style="display: inline-block; margin: 0 auto; max-width: 400px; height: 400px; border: solid 2px red;">
 ***
 ### Demonstration of the Implementation
+
+On mysql server Linux Server install MySQL Server software.
+
+// ssh into the mysql server instance
+
+<img
+  src="https://user-images.githubusercontent.com/80969889/208239688-3d88c18a-36d3-4a3a-b2ae-0c284fc16188.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 400px; height: 400px; border: solid 2px red;">
+***
+
+<img
+  src="https://user-images.githubusercontent.com/80969889/208239627-6c800734-bf18-4bcb-bf76-bda4fe350149.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 400px; height: 400px; border: solid 2px red;">
+***
+
+<img
+  src="https://user-images.githubusercontent.com/80969889/208239891-0ea16260-dfc1-48e0-b342-e3c1f3595bcb.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 400px; height: 500px; border: solid 2px red;">
+***
+
+// On mysql server Linux Server install MySQL Server software
+```
+sudo apt update
+```
+// Then install the mysql-server package
+```
+sudo apt install mysql-server
+```
+// Ensure that the server is running using the systemctl command:
+```
+sudo systemctl start mysql.service
+```
+```
+sudo systemctl status mysql.service
+```
+
+<img
+  src="https://user-images.githubusercontent.com/80969889/208239971-60cc353a-a655-4ca8-bc33-48f3b55fdf52.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 400px; height: 500px; border: solid 2px red;">
+***
+
+// Let's get started
+```
+sudo mysql
+```
+// To define the user's password as PassWord.1, enter
+```
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
+```
+Then exit the MySQL shell with: `exit`
+
+// Start the interactive script by running
+```
+sudo mysql_secure_installation
+```
+A prompt will appear to configure the VALIDATE PASSWORD PLUGIN.
+It is safe to leave validation disabled.
+Therefore click on any key apart from `Y` to continue without enabling.
+
+Regardless of whether the VALIDATE PASSWORD PLUGIN was activated, the server will prompt you to select and confirm a password for the MySQL root user. 
+`PassWord.1` should be used. 
+
+For the rest of the questions, press `Y` and hit the `ENTER` key at each prompt.
+
+<img
+  src="https://user-images.githubusercontent.com/80969889/208240425-5cf727c1-91c4-4f26-9dc7-7ad1683793a5.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 400px; height: 500px; border: solid 2px red;">
+***
+
+
+// Test the MySQL console by typing:
+```
+sudo mysql -p
+```
+Exit the MySQL console by typing `exit`.
+
+```
+sudo mysql
+```
+// Create a new database by running the following command from MySQL console
+```
+mysql> CREATE DATABASE `example_database`;
+```
+// The user's password is thus defined as password, although it may be updated with a safe password of choosing
+```
+mysql> CREATE USER 'example_user'@'%' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
+```
+// Give this user permission over the example_database database
+```
+mysql> GRANT ALL ON example_database.* TO 'example_user'@'%';
+```
+
+<img
+  src="https://user-images.githubusercontent.com/80969889/208240594-f2b20c72-ca89-4749-a2a3-ab729e4267b7.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 400px; height: 500px; border: solid 2px red;">
+***
+
+// Exit the MySQL shell by typing **exit**, and then test by
+```
+mysql -u example_user -p
+```
+
+<img
+  src="https://user-images.githubusercontent.com/80969889/208240649-981bf6b1-2e96-456b-a5a5-ef4eb5cd1f5a.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 400px; height: 500px; border: solid 2px red;">
+***
+
+
+
 
 
 
