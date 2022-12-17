@@ -27,9 +27,17 @@ Many clients can access the server's information at the same time, and a client 
 The client-server technique varies significantly from the conventional "mainframe" design, in which a centrally located mainframe computer conducted all tasks for its associated "dumb" terminals.
 
 ## Client-Server Architecture
-![image](https://user-images.githubusercontent.com/80969889/208233440-f60922ba-6a73-4343-bdc7-0b6a2311aa79.png)
+<img
+  src="https://user-images.githubusercontent.com/80969889/208233440-f60922ba-6a73-4343-bdc7-0b6a2311aa79.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 500px">
 ***
-![Alt text](Images/P5S1.png)
+<img
+  src="https://user-images.githubusercontent.com/80969889/208233537-2dd41c31-bc45-4403-905d-72ee9289e9e9.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 500px">
 ***
 The client-server architecture denotes a system that hosts, delivers, and manages the majority of the resources and services requested by the client. 
 All requests and services are supplied across a network under this approach, which is also known as the networking computer model or client server network. 
