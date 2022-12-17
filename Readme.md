@@ -18,8 +18,8 @@ To withstand the pressure of evolving in this fast-paced environment, client-ser
 It refers to a network-connected architecture in which two or more computers transmit and receive requests from one another.
 Let us break it down further.
 
-* Client: In the DevOps world this is refered to as a computer or device also known as `Host`. Client computers provide an interface to allow a computer user to request services of the server and to display the results the server returns
-* Server: A server, on the other hand, is a remote computer that waits for client requests before responding to them. A server should ideally provide a standardised transparent interface to clients so that they are unaware of the characteristics of the system (i.e., the hardware and software) that is providing the service.
+* **Client**: In the DevOps world this is refered to as a computer or device also known as `Host`. Client computers provide an interface to allow a computer user to request services of the server and to display the results the server returns
+* **Server**: A server, on the other hand, is a remote computer that waits for client requests before responding to them. A server should ideally provide a standardised transparent interface to clients so that they are unaware of the characteristics of the system (i.e., the hardware and software) that is providing the service.
 ![image](https://user-images.githubusercontent.com/80969889/208232594-ec2affe5-0041-4678-a488-151c08e8d902.png)
 ***
 This computing strategy works well when clients and servers have distinct tasks to complete on a regular basis. 
@@ -88,10 +88,13 @@ P2P networks can be used for many purposes, such as file sharing and communicati
 
 There are several key differences between client-server and P2P architectures:
 
-* Centralization: In a client-server architecture, there is a central point of control and responsibility, while in a P2P network, responsibility is distributed among the devices on the network.
-* Scalability: Client-server architectures are generally more scalable than P2P networks, as they can handle a larger number of clients without experiencing performance issues.
-* Reliability: In a client-server architecture, the server is a single point of failure, meaning that if it goes down, the entire system may be affected. In a P2P network, there is no central point of failure, so the network may be more reliable.
-* Security: Client-server architectures may be more secure than P2P networks, as the server can be better protected from attacks and unauthorized access. However, P2P networks can also be secured through the use of encryption and other security measures.
+* **Centralization**: In a client-server architecture, there is a central point of control and responsibility, while in a P2P network, responsibility is distributed among the devices on the network.
+
+* **Scalability**: Client-server architectures are generally more scalable than P2P networks, as they can handle a larger number of clients without experiencing performance issues.
+
+* **Reliability**: In a client-server architecture, the server is a single point of failure, meaning that if it goes down, the entire system may be affected. In a P2P network, there is no central point of failure, so the network may be more reliable.
+
+* **Security**: Client-server architectures may be more secure than P2P networks, as the server can be better protected from attacks and unauthorized access. However, P2P networks can also be secured through the use of encryption and other security measures.
 Overall, the choice between a client-server and P2P architecture depends on the specific needs and requirements of the application or network in question.
 
 <img
@@ -122,17 +125,27 @@ Because nothing in the universe has yet to be perfectly created, things that hav
 
 ## Examples of Client-Server Architecture
 
-* Web browsers and web servers: When you type a URL into your web browser and hit enter, your browser sends a request to a web server for the corresponding website. The server then sends back the HTML, CSS, and JavaScript files that make up the website, which your browser then renders for you to view.
-* Email clients and email servers: When you send an email from your email client (such as Outlook or Gmail), your client sends a request to an email server to send the email on your behalf. The server then delivers the email to the recipient's email server, which passes it along to their email client.
-* FTP clients and FTP servers: FTP (File Transfer Protocol) is a protocol used to transfer files over the internet. FTP clients (such as FileZilla) allow you to connect to an FTP server and transfer files to and from the server.
-* Remote desktop clients and remote desktop servers: Remote desktop software allows you to remotely control another computer over the internet. A remote desktop client (such as Remote Desktop Connection) sends requests to a remote desktop server, which processes the requests and sends back the display and control information for the remote computer.
-* Cloud storage: Cloud storage services like Google Drive and Dropbox use a client-server architecture, with the client uploading and downloading files from the server and the server storing and managing access to the files.
-* Online banking: Online banking systems use a client-server architecture, with the client (such as a web browser or mobile app) sending requests to the bank's server to access account information and perform transactions.
-* Social media: Social media platforms use a client-server architecture, with the client (such as a web browser or mobile app) sending requests to the server to access and post content, and the server responding with the requested content and updating the user's feed.
-* Video streaming: Video streaming services like Netflix and YouTube use a client-server architecture, with the client requesting and receiving video streams from the server.
-* Virtual private network (VPN): A VPN service uses a client-server architecture, with the client connecting to a server and routing internet traffic through the server to encrypt the connection and protect the user's privacy.
-* File sharing network: A file sharing network allows clients to upload and download files from a central server. The server stores the files and manages access to them, while the clients request access to the files and receive them from the server.
-* Online gaming: Online gaming platforms typically use a client-server architecture, with the game client running on the user's device and the game server hosting the game world and managing interactions between players.
+* **Web browsers and web servers**: When you type a URL into your web browser and hit enter, your browser sends a request to a web server for the corresponding website. The server then sends back the HTML, CSS, and JavaScript files that make up the website, which your browser then renders for you to view.
+
+* **Email clients and email servers**: When you send an email from your email client (such as Outlook or Gmail), your client sends a request to an email server to send the email on your behalf. The server then delivers the email to the recipient's email server, which passes it along to their email client.
+
+* **FTP clients and FTP servers**: FTP (File Transfer Protocol) is a protocol used to transfer files over the internet. FTP clients (such as FileZilla) allow you to connect to an FTP server and transfer files to and from the server.
+
+* **Remote desktop clients and remote desktop servers**: Remote desktop software allows you to remotely control another computer over the internet. A remote desktop client (such as Remote Desktop Connection) sends requests to a remote desktop server, which processes the requests and sends back the display and control information for the remote computer.
+
+* **Cloud storage**: Cloud storage services like Google Drive and Dropbox use a client-server architecture, with the client uploading and downloading files from the server and the server storing and managing access to the files.
+
+* **Online banking**: Online banking systems use a client-server architecture, with the client (such as a web browser or mobile app) sending requests to the bank's server to access account information and perform transactions.
+
+* **Social media**: Social media platforms use a client-server architecture, with the client (such as a web browser or mobile app) sending requests to the server to access and post content, and the server responding with the requested content and updating the user's feed.
+
+* **Video streaming**: Video streaming services like Netflix and YouTube use a client-server architecture, with the client requesting and receiving video streams from the server.
+
+* **Virtual private network (VPN)**: A VPN service uses a client-server architecture, with the client connecting to a server and routing internet traffic through the server to encrypt the connection and protect the user's privacy.
+
+* **File sharing network**: A file sharing network allows clients to upload and download files from a central server. The server stores the files and manages access to them, while the clients request access to the files and receive them from the server.
+
+* **Online gaming**: Online gaming platforms typically use a client-server architecture, with the game client running on the user's device and the game server hosting the game world and managing interactions between players.
 
 🥂🥂**CONGRATULATIONS!** 👏👏 on having a solid grasp of a Client-Server Architecture. Now proceed to to read more about the architecture's [implementation using the MySQL database](https://github.com/Gozinne/Client-Server-Architecture/blob/main/Client-Server-Architectire-Implementation/Readme.md).
 
