@@ -62,7 +62,7 @@ The Presentation layer is managed by the Client system, the Application layer by
   src="https://user-images.githubusercontent.com/80969889/208234121-01f4baa0-1b31-420c-9f8e-67ef6cbf8bc0.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 500px; height: 650px; border: solid 2px red;">
+  style="display: inline-block; margin: 0 auto; max-width: 500px; height: 600px; border: solid 2px red;">
 ***
 ### Characteristics of Client-Server Architecture
 * Client and server computers require varying amounts of hardware and software. 
@@ -93,7 +93,7 @@ Overall, the choice between a client-server and P2P architecture depends on the 
   src="https://user-images.githubusercontent.com/80969889/208235034-662006b5-7c5c-4cb3-877b-fb5a83101f31.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 500px; height: 500px; border: solid 2px red;">
+  style="display: inline-block; margin: 0 auto; max-width: 700px; height: 060px; border: solid 2px red;">
 ***
 ## Why use Client-Server Architecture
 * It’s a centralized system that keeps all the data and its controls in one place.
