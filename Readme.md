@@ -126,7 +126,7 @@ Because nothing in the universe has yet to be perfectly created, things that hav
 * File sharing network: A file sharing network allows clients to upload and download files from a central server. The server stores the files and manages access to them, while the clients request access to the files and receive them from the server.
 * Online gaming: Online gaming platforms typically use a client-server architecture, with the game client running on the user's device and the game server hosting the game world and managing interactions between players.
 
-
+🥂🥂**CONGRATULATIONS!** 👏👏 on having a solid grasp of a Client-Server Architecture. Now proceed to to read more about the architecture's [implementation using the MySQL database](https://github.com/Gozinne/Client-Server-Architecture/blob/main/Client-Server-Architectire-Implementation/Readme.md).
 
 
 
